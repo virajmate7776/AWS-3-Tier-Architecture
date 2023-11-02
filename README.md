@@ -41,6 +41,7 @@ Three-tier architecture can be used in the development of various infrastructure
 ### 1.	Creating a VPC
   
   <br>    
+  
   In the AWS console, navigate to the search tab and type “VPC.” Once you are  in the VPC section click “Create VPC”, there we will input the VPC name, set an IPv4 CIDR to 10.0.0.0/16, ensure you click on “VPC only” and create the VPC 
 
 <br>
@@ -100,6 +101,7 @@ Three-tier architecture can be used in the development of various infrastructure
  
 
   Now all of our subnets are set up properly.
+
 <br>
 
 ### 3. Internet Gateway
@@ -210,6 +212,7 @@ We now have the infrastructure needed to set up the three tiers. We’re going t
 
 From the AWS console, navigate to Instances and click Launch templates > Create launch template.
 
+<br>
 
 #### From here complete the following:
 
@@ -278,6 +281,7 @@ Select the VPC for this project and the two public web tier subnets. Click “Ne
 <br>
 
 Select Attach to a new load balancer, Application load balancer, and Internet-facing. Then select Create a target group and click “Next”.
+
 <br>
 
 ![image](https://github.com/virajmate7776/AWS-3-Tier-Architecture/assets/117629972/3e085c13-32e3-43aa-96d9-9232dd1c77ae)
@@ -307,7 +311,8 @@ We should have two instances running.
 
 ![image](https://github.com/virajmate7776/AWS-3-Tier-Architecture/assets/117629972/131b5bac-b47b-4df8-b325-f2f3ca7d3332)
 
- 
+<br>
+
 Let’s make sure we can access  Apache servers on both machines.
 
 <br>
@@ -322,6 +327,7 @@ Let’s make sure we can access  Apache servers on both machines.
 
 
 Web tier is done. Now we can move on to the application tier.
+
 <br>
 
 ### Application Tier
@@ -451,7 +457,7 @@ Select Standard create and MySQL.
 
 ![image](https://github.com/virajmate7776/AWS-3-Tier-Architecture/assets/117629972/ce35409f-4039-471d-9005-0846e0556453)
 
-
+<br>
 
 Select free tier for the templates and name the database. You can keep admin for the master username but be prepared to make a master password.
 
@@ -495,6 +501,7 @@ Delete the security group rule, click “Add rule”, select MySQL/Aurora for th
 
 ![image](https://github.com/virajmate7776/AWS-3-Tier-Architecture/assets/117629972/18aa7f45-42b6-4807-9e79-a406b58c91ac)
 
+<br>
 
 
 That’s the last step for 3 tier project!
