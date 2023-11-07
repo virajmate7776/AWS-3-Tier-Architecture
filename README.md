@@ -2,15 +2,14 @@
 
 <br>
 <br>
-<br>
-<br>
-
+ 
+ ### Architecture
 
 ![image](https://github.com/virajmate7776/AWS-3-Tier-Architecture/assets/117629972/daeb1b31-4705-496c-9170-44100e78c667)
 
 
 <br>
-<br>
+
 
 
 ### What is 3-Tier Architecture?
