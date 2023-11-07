@@ -1,4 +1,4 @@
-# Deploying A Highly Scalable AWS 3-Tier Architecture
+# Deploying A Highly Available and Scalable AWS 3-Tier Architecture
 
 <br>
 <br>
